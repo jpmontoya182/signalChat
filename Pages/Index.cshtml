@@ -1,0 +1,24 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="container">
+    <div class="row">
+        <label for="" class="col-2">Usuario</label>
+        <input type="text" id="txtUser" class="col-4">
+    </div>
+    <div class="row">
+        <label for="" class="col-2">Mensaje</label>
+        <input type="text" id="txtMessage" class="col-4">
+    </div>
+    <div class="row">
+        <input type="button" id="btnSend" value="Send" />
+    </div>
+</div>
+<div class="row">
+    <ul class="lstMessages">
+
+    </ul>
+</div>
